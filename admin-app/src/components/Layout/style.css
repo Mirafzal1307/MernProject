@@ -1,0 +1,44 @@
+* {
+    list-style: none;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background: rgb(233, 231, 231);
+    padding-top: 60px;
+    box-shadow: inset 0 0 2px gray;
+}
+
+.sidebar a {
+    display: block;
+}
+
+.slidebar ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+.slidebar ul li {
+    list-style: none !important;
+
+}
+
+.sidebar ul li a {
+    display: block;
+    color: #333 !important;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    margin: 5px 0px 5px 10px !important;
+    border-radius: 5px 0 0 5px !important;
+    text-decoration: none;
+
+}
+
+.slidebar ul li a.active {
+    background: #333 !important;
+    color: #fff !important;
+}
